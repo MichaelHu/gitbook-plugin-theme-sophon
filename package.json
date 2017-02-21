@@ -1,0 +1,22 @@
+{
+    "name": "gitbook-plugin-theme-sophon",
+    "description": "sophon doc theme",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": ">=3.0.0"
+    },
+    "devDependencies": {
+        "less": "2.6.0",
+        "less-plugin-clean-css": "1.5.1",
+        "gitbook-styleguide": "5.9.2"
+    },
+    "scripts": {
+        "prepublish": "./src/build.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MichaelHu/gitbook-plugin-theme-sophon.git"
+    },
+    "author": "MichaelHu",
+    "license": "Apache-2.0"
+}
