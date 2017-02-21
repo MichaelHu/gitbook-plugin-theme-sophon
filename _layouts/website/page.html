@@ -22,7 +22,7 @@
             {% block search_input %}{% endblock %}
 
             <a href="{{ "/"|resolveFile }}" class="logo">
-                <img src="{{ "images/logo/128.png"|resolveAsset }}">
+                <img src="{{ "images/logo-lvwan.png"|resolveAsset }}" style="background-color:#69b96d; padding: 3px; border-radius: 3px;">
                 <h1>{{ config.title }}</h1>
             </a>
 
@@ -71,13 +71,13 @@
         <div class="container">
             <ul class="menu">
                 <li class="pull-right">
-                    <span class="service-info">Copyright GitBook {{ gitbook.time|date('YYYY') }}</span>
+                    <span class="service-info">&copy; 绿湾网络 {{ gitbook.time|date('YYYY') }}</span>
                 </li>
                 <li>
-                    <a href="#">Return to the top</a>
+                    <a href="#">返回顶部</a>
                 </li>
                 <li>
-                    <a href="#">Updated {{ file.mtime|date('MMM Do YY') }}</a>
+                    <a href="#">更新于{{ file.mtime|date('YYYY-MM-DD') }}</a>
                 </li>
             </ul>
         </div>
