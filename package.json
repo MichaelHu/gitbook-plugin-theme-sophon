@@ -1,12 +1,13 @@
 {
     "name": "gitbook-plugin-theme-sophon",
     "description": "sophon doc theme",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "engines": {
         "gitbook": ">=3.0.0"
     },
+    "note-tip": "https://github.com/less/less.js/blob/master/CHANGELOG.md#270 : Compatibility fixes for Node 6.x",
     "devDependencies": {
-        "less": "2.6.0",
+        "less": ">=2.7.0",
         "less-plugin-clean-css": "1.5.1",
         "gitbook-styleguide": "5.9.2"
     },
